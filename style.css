@@ -1,0 +1,103 @@
+#header-left {width:65px; height:100%; background-color: black;}
+#header-top { background-color:orange; height: 65px;}
+#header-right {width:70px ; background-color: yellow;}
+
+body, html {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   }
+
+   .container {
+   width: 100%;
+   height: 100%;
+   }
+
+   .leftpane {
+       width: 65px;
+       height: 100%;
+       float: left;
+       background-color: white;
+       border-collapse: collapse;
+   }
+
+   .middlepane {
+       width: 90%;
+       height: 100%;
+       float: left;
+       border-collapse: collapse;
+   }
+
+   .toppane {
+   width: 100%;
+   height: 65px;
+   border-collapse: collapse;
+   
+   
+   }
+   .block1 {
+       width: 37%;
+       height: 100%;
+       float: left;
+       border-collapse: collapse;
+       background-color: white;
+
+   }
+   .block2 {
+   width: 63%;
+   height: 100%;
+   position: relative;
+   float: right;
+   background-color: white;
+   border-collapse: collapse;
+   
+   }
+
+
+   .column1 {
+           float: left;
+           width: 34%;
+           height: 450px;
+           }
+   .column2 {
+           float: left;
+           width: 22%;
+           height: 450px;
+           }
+   .column3 {
+           float: left;
+           width: 22%;
+           height: 450px;
+           }
+ .column4 {
+           float: left;
+           width: 22%;
+           height: 450px;
+           }
+   .a {
+       margin-top: 60px;
+       margin-left: 120px;
+       align-items: baseline;
+   }
+   .worktype {
+       font-size: 24px;
+       margin-left: 100px;
+       font-family: sans-serif;
+   }
+   .worktypeside{
+        font-family: sans-serif;
+         margin-left: 100px;
+   }
+
+   @media (min-width:600px) {
+        p{
+            font-size: 1.25rem;
+        }
+   }
+
+   @media (min-width:800px) {
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
